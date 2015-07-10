@@ -5,7 +5,7 @@
  * Use of this source code is governed by a BSD-style license that can be found at http://www.is2t.com/open-source-bsd-license/.
  */
 
-package com.is2t.example;
+package com.is2t.example.arabicfont;
 
 import ej.microui.io.Display;
 import ej.microui.io.Displayable;
