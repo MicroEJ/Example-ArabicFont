@@ -12,18 +12,9 @@ import ej.microui.display.Colors;
 import ej.microui.display.Display;
 import ej.microui.display.Displayable;
 import ej.microui.display.ExplicitFlush;
-import ej.microui.display.Font;
 import ej.microui.display.GraphicsContext;
 
 public final class HowToUseArabicFont {
-
-	private static Display display;
-	private static int displayWidth;
-	private static int displayHeight;
-	private static Font defaultFont;
-	private static int lineHeight;
-	private static int columnWidth;
-	private static GraphicsContext g;
 
 	// Prevents initialization.
 	private HowToUseArabicFont() {
@@ -40,10 +31,10 @@ public final class HowToUseArabicFont {
 	private static void initialize() {
 		// initialize graphics
 		MicroUI.start();
-		display = Display.getDefaultDisplay();
+		Display display = Display.getDefaultDisplay();
 		if (display != null) {
-			displayWidth = display.getWidth();
-			displayHeight = display.getHeight();
+			int displayWidth = display.getWidth();
+			int displayHeight = display.getHeight();
 
 			// Draw background
 			ExplicitFlush explicitFlush = display.getNewExplicitFlush();
@@ -52,11 +43,8 @@ public final class HowToUseArabicFont {
 			explicitFlush.flush();
 
 			// Set
-			g = display.getNewGraphicsContext();
-			defaultFont = Font.getDefaultFont();
-			lineHeight = defaultFont.getHeight() + 10;
+			GraphicsContext g = display.getNewGraphicsContext();
 			g.setColor(Colors.BLACK);
-			columnWidth = 0;
 		}
 	}
 }
