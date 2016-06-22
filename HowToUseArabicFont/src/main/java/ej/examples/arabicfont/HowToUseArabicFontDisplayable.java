@@ -84,7 +84,7 @@ public class HowToUseArabicFontDisplayable extends Displayable {
 		}
 	}
 
-	// This font have to contain the characters of the unicode block called 'Arabic Presentation Forms-B' i.e. the range
+	// This font has to contain the characters of the unicode block called 'Arabic Presentation Forms-B' i.e. the range
 	// 0xFE70-0xFEFF.
 	private Font getFont() {
 		return Font.getFont(Font.ARABIC, FONT_SIZE, Font.STYLE_PLAIN);
