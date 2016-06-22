@@ -38,7 +38,7 @@ This example shows how to use the arabic fonts.
 	* MICROUI-2.0 or higher
 	
 # Changes
-See the changelog file `CHANGELOG.md` located at the root of this repository.
+See the changelog file [CHANGELOG.md](CHANGELOG.md) located at the root of this repository.
 
 # License
-See the license file `LICENSE.md` located at the root of this repository.
+See the license file [LICENSE.md](LICENSE.md) located at the root of this repository.
