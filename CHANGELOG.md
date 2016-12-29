@@ -7,7 +7,7 @@ Features:
 Features:
   - Port to MicroEj 4.
   
-## 0.1.0 (2014-xx-xx)
+## 0.1.0
 Features:
   - Initial revision.
 
