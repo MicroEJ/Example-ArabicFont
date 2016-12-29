@@ -1,4 +1,4 @@
-## 1.0.0 (2016-05-23)
+## 2.0.0 (2016-12-29)
 Features:
   - Change organization.
   - Build with build-microej-javalib 3.+.
