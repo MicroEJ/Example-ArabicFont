@@ -1,22 +1,13 @@
-<!--
-	Markdown
--->
-<!--
-Changelog template:
-
-## Revision (YYYY-mm-dd)
+## 2.0.0 (2016-12-29)
 Features:
-  - List here the new features.
-  
-Bugfixes:
-  - List here the bug fixes.
--->
+  - Change organization.
+  - Build with build-microej-javalib 3.+.
 
 ## 1.0.0 (2016-05-23)
 Features:
   - Port to MicroEj 4.
   
-## 0.1.0 (2014-xx-xx)
+## 0.1.0
 Features:
   - Initial revision.
 

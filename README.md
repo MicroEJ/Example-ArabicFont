@@ -16,7 +16,7 @@ This example shows how to use the arabic fonts.
 
 ## Run on device
 ### Build
-1. Right Click on [HowToUseArabicFont.java](HowToUseArabicFont/src/main/java/ej/examples/arabicfont/HowToUseArabicFont.java)
+1. Right Click on [HowToUseArabicFont.java](HowToUseArabicFont/src/main/java/com/microej/example/arabicfont/HowToUseArabicFont.java)
 1. Select **Run as -> Run Configuration**
 1. Select **MicroEJ Application** configuration kind
 1. Click on **New launch configuration** icon
@@ -37,8 +37,11 @@ This example shows how to use the arabic fonts.
 	* EDC-1.2 or higher
 	* MICROUI-2.0 or higher
 	
-# Changes
-See the changelog file [CHANGELOG.md](CHANGELOG.md) located at the root of this repository.
+## Dependencies
+_All dependencies are retrieved transitively by Ivy resolver_.
 
-# License
-See the license file [LICENSE.md](LICENSE.md) located at the root of this repository.
+# Source
+N/A
+
+# Restrictions
+None.
